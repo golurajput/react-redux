@@ -12,6 +12,7 @@ class UserDetails extends Component{
 }
 
 function mapStateToProps(state){
+    debugger
     return{
         activeUser: state.activeUser
     }
